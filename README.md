@@ -26,8 +26,15 @@ cd cmus-lyrics
 ```
 cargo build --release
 ```
+### 4. Install globally
+cargo install --path .
 
-### 4. Run
+### 5. Run
 The compiled binary will be placed in `target/release/`:
 ```bash
 ./target/release/cmus-lyrics
+```
+### or
+```
+cmus-lyrics-rs
+```
