@@ -6,8 +6,8 @@ Lightweight lyrics fetcher for cmus written in Rust.
 
 ### Quick Install (Recommended)
 Install directly from GitHub via Cargo:
-```fish
-cargo install --git [https://github.com/PandeusQ/cmus-lyrics.git](https://github.com/PandeusQ/cmus-lyrics.git)
+```bash
+cargo install --git https://github.com/PandeusQ/cmus-lyrics.git
 ```
 
 ### or 
