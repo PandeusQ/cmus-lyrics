@@ -10,7 +10,7 @@ Install directly from GitHub via Cargo:
 cargo install --git https://github.com/PandeusQ/cmus-lyrics.git
 ```
 
-### or 
+### or Option 2: Build from Source
 
 
 ### 1. Prerequisites
@@ -26,15 +26,24 @@ cd cmus-lyrics
 ```
 cargo build --release
 ```
-### 4. Install globally
+### 4. Install globally (Optional)
 cargo install --path .
 
-### 5. Run
-The compiled binary will be placed in `target/release/`:
-```bash
-./target/release/cmus-lyrics
-```
-### or
+### 5. 🚀 Usage
+
+If installed globally (via Option 1 or cargo install --path .):
 ```
 cmus-lyrics-rs
+```
+### Or run the compiled binary directly:
+```
+./target/release/cmus-lyrics-rs
+```
+### 🗑️ Uninstall
+```
+cargo uninstall cmus-lyrics-rs
+```
+### To clean up local build files (if built from source):
+```
+cargo clean
 ```
