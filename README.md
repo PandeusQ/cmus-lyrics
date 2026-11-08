@@ -3,6 +3,7 @@
 Lightweight lyrics fetcher for cmus written in Rust.
 
 ## 📦 Installation
+### You need **Rust** and **Cargo** installed on your system.
 
 ## Quick Install (Recommended)
 Install directly from GitHub via Cargo:
