@@ -10,7 +10,9 @@ Install directly from GitHub via Cargo:
 ```bash
 cargo install --git https://github.com/PandeusQ/cmus-lyrics.git
 ```
-
+```
+cmus-lyrics-rs
+```
 ## or Option 2: Build from Source
 
 
