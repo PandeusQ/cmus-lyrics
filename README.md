@@ -29,7 +29,7 @@ cargo build --release
 ## 4. Install globally (Optional)
 cargo install --path .
 
-## 5. 🚀 Usage
+## 🚀 Usage
 
 If installed globally (via Option 1 or cargo install --path .):
 ```
