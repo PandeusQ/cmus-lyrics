@@ -27,7 +27,9 @@ cd cmus-lyrics
 cargo build --release
 ```
 ## 4. Install globally (Optional)
+```
 cargo install --path .
+```
 
 ## 🚀 Usage
 
