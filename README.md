@@ -11,3 +11,12 @@ Ensure you have Rust and Cargo installed.
 ```bash
 git clone [https://github.com/PandeusQ/cmus-lyrics.git](https://github.com/PandeusQ/cmus-lyrics.git)
 cd cmus-lyrics
+```
+
+### 3.Build from source
+cargo build --release
+
+### 4. Run
+The compiled binary will be placed in `target/release/`:
+```bash
+./target/release/cmus-lyrics
