@@ -2,7 +2,16 @@
 
 Lightweight lyrics fetcher for cmus written in Rust.
 
-## 📦 Installation & Usage
+## 📦 Installation
+
+### Quick Install (Recommended)
+Install directly from GitHub via Cargo:
+```fish
+cargo install --git [https://github.com/PandeusQ/cmus-lyrics.git](https://github.com/PandeusQ/cmus-lyrics.git)
+```
+```
+or 
+```
 
 ### 1. Prerequisites
 Ensure you have Rust and Cargo installed.
