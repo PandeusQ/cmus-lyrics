@@ -4,32 +4,32 @@ Lightweight lyrics fetcher for cmus written in Rust.
 
 ## 📦 Installation
 
-### Quick Install (Recommended)
+## Quick Install (Recommended)
 Install directly from GitHub via Cargo:
 ```bash
 cargo install --git https://github.com/PandeusQ/cmus-lyrics.git
 ```
 
-### or Option 2: Build from Source
+## or Option 2: Build from Source
 
 
-### 1. Prerequisites
+## 1. Prerequisites
 Ensure you have Rust and Cargo installed.
 
-### 2. Clone the repository
+## 2. Clone the repository
 ```bash
 git clone https://github.com/PandeusQ/cmus-lyrics.git
 cd cmus-lyrics
 ```
 
-### 3.Build from source
+## 3.Build from source
 ```
 cargo build --release
 ```
-### 4. Install globally (Optional)
+## 4. Install globally (Optional)
 cargo install --path .
 
-### 5. 🚀 Usage
+## 5. 🚀 Usage
 
 If installed globally (via Option 1 or cargo install --path .):
 ```
@@ -39,7 +39,7 @@ cmus-lyrics-rs
 ```
 ./target/release/cmus-lyrics-rs
 ```
-### 🗑️ Uninstall
+## 🗑️ Uninstall
 ```
 cargo uninstall cmus-lyrics-rs
 ```
