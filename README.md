@@ -9,9 +9,9 @@ Install directly from GitHub via Cargo:
 ```fish
 cargo install --git [https://github.com/PandeusQ/cmus-lyrics.git](https://github.com/PandeusQ/cmus-lyrics.git)
 ```
-```
-or 
-```
+
+### or 
+
 
 ### 1. Prerequisites
 Ensure you have Rust and Cargo installed.
@@ -23,7 +23,9 @@ cd cmus-lyrics
 ```
 
 ### 3.Build from source
+```
 cargo build --release
+```
 
 ### 4. Run
 The compiled binary will be placed in `target/release/`:
